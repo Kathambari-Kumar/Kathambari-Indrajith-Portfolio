@@ -909,9 +909,19 @@ border-bottom: none;
 }
 
 .overview-name {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
+.overview-role {
+  color: #A67C52;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+
+.overview-description {
+  padding-left: 5px;
+  padding-right:5px;
+}
 .overview-badges,
 .overview-links {
     justify-content: center;
