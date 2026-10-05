@@ -922,7 +922,7 @@ border-bottom: none;
 }
 
 .overview-name {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     letter-spacing: 2px;
 }
 
@@ -1042,6 +1042,7 @@ width: 100%;
 
 .contact-content h2 {
 font-size: 1.7rem;
+margin-bottom: 20px;
 }
 .contact-content {
   text-align: left;
