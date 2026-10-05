@@ -27,7 +27,7 @@ function Contact() {
         
             <div className="contact-item">
             <span className="contact-icon">✉</span>
-            <span className="contact-text-color">kathambari.indrajith@gmail.com</span>
+            <span className="contact-text-color"> kathambari.indrajith@gmail.com</span>
             </div>
         
             <div className="contact-item">

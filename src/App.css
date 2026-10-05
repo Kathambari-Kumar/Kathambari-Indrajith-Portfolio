@@ -1026,7 +1026,7 @@ width: 100%;
 .contact-photo-wrapper {
   position: absolute;
   top: 20px;
-  right: 30px;
+  right: 20px;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -1040,6 +1040,9 @@ width: 100%;
   flex-direction: column;
 }
 
+.contact-content h2 {
+font-size: 1.7rem;
+}
 .contact-content {
   text-align: left;
 }
