@@ -922,13 +922,9 @@ border-bottom: none;
   color: #A67C52;
   margin-bottom: 14px;
   font-weight: 600;
-  font-size: 0.7rem;
+  font-size: 1.3rem;
 }
 
-.overview-description {
-  padding-left: 5px;
-  padding-right:5px;
-}
 .overview-badges,
 .overview-links {
     justify-content: center;
