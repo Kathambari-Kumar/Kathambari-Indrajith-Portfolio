@@ -922,7 +922,7 @@ border-bottom: none;
 }
 
 .overview-name {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     letter-spacing: 2px;
 }
 
@@ -1026,7 +1026,7 @@ width: 100%;
 .contact-photo-wrapper {
   position: absolute;
   top: 20px;
-  right: 60px;
+  right: 30px;
   width: 70px;
   height: 70px;
   border-radius: 50%;
