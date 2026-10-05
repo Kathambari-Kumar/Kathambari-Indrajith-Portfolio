@@ -844,9 +844,16 @@ text-decoration: underline;
 .logo-icon {
 font-size: 1.0rem;
 font-weight: 500;
+letter-spacing: 2px;
 color: #DDE8D4;
 }
 
+.logo-text {
+font-size: 0.7rem;
+font-weight: 500;
+padding-bottom: 5px;
+color: #DDE8D4;
+}
 .mobile-menu {
       padding: 15px 15px 15px 15px;
       border-bottom: 5px solid rgba(248,244,239,0.7);
@@ -919,10 +926,7 @@ border-bottom: none;
 }
 
 .overview-role {
-  color: #A67C52;
-  margin-bottom: 14px;
-  font-weight: 500;
-  font-size: 1.0rem;
+  display: none;
 }
 
 .overview-badges,
