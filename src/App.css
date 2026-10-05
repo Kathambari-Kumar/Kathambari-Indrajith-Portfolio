@@ -13,6 +13,10 @@ body {
 
 /* Navbar */
 
+.hamburger {
+display: none;
+}
+
 .navbar {
   position: sticky;
   top: 0;
@@ -78,6 +82,7 @@ color: #DDE8D4;
 }
 
 /* Overview Section */
+
 .overview-section {
   background-color: #F8F4EF;
   color: #2F2F2F;
@@ -120,10 +125,7 @@ color: #DDE8D4;
   border: 2px solid #A67C52;
 
   padding: 24px;
-
   opacity: 0.6;
-  
-
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
@@ -146,7 +148,6 @@ color: #DDE8D4;
   overflow: hidden;
 
   background: white;
-
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
 }
 
@@ -155,7 +156,6 @@ color: #DDE8D4;
   height: 100%;
   object-fit: cover;
   opacity: 0.7;
-  /* filter: blur(1px); */
 }
 
 .profile-photo:hover {
@@ -222,7 +222,7 @@ color: #DDE8D4;
 /* Toolkit */
 
 .toolkit-section {
-  background-color: #DDE8D4; /*#DCE7F2; */
+  background-color: #DDE8D4; 
   color: #243447;
   margin-top: 15px; 
   border-bottom: 5px solid #f7efe6;
@@ -306,9 +306,7 @@ color: #DDE8D4;
 
 .tool-card-body li {
   color: #243447;
-
   padding: 5px 0;
-
   border-bottom: 1px solid rgba(36, 52, 71, 0.08);
 }
 
@@ -360,54 +358,35 @@ margin: 0 auto;
 display: flex;
 justify-content: space-between;
 align-items: center;
-
 }
 
 .journey-line::before {
 content: "";
-
 position: absolute;
-
 left: 0;
 right: 0;
 top: 50%;
-
 height: 1px;
 background: #7A9B76;
-
-/* background: linear-gradient(
-to right,
-#A67C52,
-rgba(166, 124, 82, 0.5),
-#A67C52
-); */
-
 transform: translateY(-50%);
 }
 
 .journey-point {
 position: relative;
-
 width: 220px;
-
 display: flex;
 flex-direction: column;
 align-items: center;
-
 z-index: 2;
 }
 
 .year-tag {
 background: #7A9B76;
 color: #F8F4EF;
-
 padding: 12px 26px;
-
 border-radius: 12px;
-
 font-size: 1.4rem;
 font-weight: 700;
-
 box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
 }
 
@@ -429,24 +408,19 @@ text-align: center;
 .journey-type {
 display: block;
 margin-bottom: 10px;
-
 color: #A67C52;
-
 font-size: 0.75rem;
 font-weight: 700;
-
 letter-spacing: 1.5px;
 }
 
 .journey-content h3 {
 margin-bottom: 8px;
-
 font-size: 0.7rem;
 }
 
 .journey-content p {
 margin: 0;
-
 font-size: 0.9rem;
 }
 
@@ -468,10 +442,6 @@ rgba(166, 124, 82, 0)
 
 .journey-point.bottom .journey-content {
 margin-top: 25px;
-}
-
-.future .year-tag {
-background: #7A9B76;
 }
 
 /* Growth PAth */
@@ -529,13 +499,10 @@ background: #7A9B76;
 
 .corner-fold {
   position: absolute;
-
   top: 0;
   left: 0;
-
   width: 0;
   height: 0;
-
   border-top: 40px solid #A67C52;
   border-right: 40px solid transparent;
 }
@@ -546,9 +513,8 @@ background: #7A9B76;
 
 .growth-company {
   display: inline-block;
-
   margin-bottom: 15px;
-  color: #7A5735;
+  color: #A67C52;
   font-weight: 600;
 }
 
@@ -565,7 +531,7 @@ background: #7A9B76;
 .tech-stack {
   padding-top: 7px;
   border-top: 1px solid rgba(47, 62, 47, 0.12);
-  color: #7A5735;
+  color: #A67C52;
   font-weight: 600;
   font-size: 0.95rem;
 }
@@ -640,7 +606,7 @@ padding: 15px 20px;
 }
 
 .project-role {
-color: #7A5735;
+color: #A67C52;
 font-weight: 700;
 margin-bottom: 3px;
 }
@@ -658,7 +624,7 @@ margin-bottom: 1px;
 margin-top: 10px;
 padding-top: 10px;
 border-top: 1px solid rgba(0, 0, 0, 0.08);
-color: #7A5735;
+color: #A67C52;
 font-weight: 700;
 }
 
@@ -861,62 +827,110 @@ text-decoration: underline;
 /* Responsive */
 
 @media (max-width: 992px) {
-  .navbar {
-    flex-direction: column;
-    gap: 16px;
-    padding: 20px;
-  }
 
-  .navbar-links {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-  }
+.hamburger {
+    display: block;
+    background: none;
+    border: none;
+    color: #F8F4EF;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+  
+.navbar-links {
+    display: none;
+}
+
+.mobile-menu {
+      padding: 15px 15px 15px 15px;
+      border-bottom: 5px solid rgba(248,244,239,0.7);
+      background-color: #A67C52;
+      color: #F8F4EF;
+      background: linear-gradient(
+        to right,
+        rgba(166, 124, 82, 1),
+        rgb(198, 155, 129), 
+        rgb(161, 121, 81, 1)
+      );
+      list-style: none;
+      gap: 24px;
+}
+
+.mobile-menu li {
+border-bottom: 1px solid rgba(248, 244, 239, 0.3);
+padding: 1px 0;
+}
+
+.mobile-menu li:last-child {
+border-bottom: none;
+}
+
+.mobile-menu li a {
+  text-decoration: none;
+  color: #F8F4EF;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+.mobile-menu li a:hover {  
+  text-decoration-color: #F8F4EF;
+  opacity: 0.75;
+  color: #3B3024;
+}
 
   /* Overview */
-  .overview-container {
+.overview-container {
     flex-direction: column;
     text-align: center;
-  }
+    gap:5px;
+}
 
-  .overview-image-area {
+.overview-image-area {
     width: 350px;
     height: 450px;
-  }
+}
 
-  .code-card {
+.code-card {
+    top: 0px;
     width: 270px;
     height: 320px;
-  }
+    
+}
 
-  .photo-card {
+.photo-card {
+    top:40px;
     width: 270px;
     height: 360px;
-  }
+}
 
-  .overview-name {
+.profile-photo { 
+    opacity: 100%;
+}
+
+.overview-name {
     font-size: 2.5rem;
-  }
+}
 
-  .overview-badges,
-  .overview-links {
+.overview-badges,
+.overview-links {
     justify-content: center;
-  }
+}
 
   /* Toolkit */
-  .toolkit-grid {
+.toolkit-grid {
     grid-template-columns: 1fr;
-  }
+}
 
-  .toolkit-title-bar {
+.toolkit-title-bar {
     width: 100%;
-  }
+}
 
 /*Academic Journey */
 
 .journey-line {
 flex-direction: column;
-gap: 60px;
+gap: 30px;
 }
 
 .journey-line::before {
@@ -938,7 +952,7 @@ rgba(166, 124, 82, 0)
 
 .journey-point.bottom .journey-content,
 .journey-point.top .journey-content {
-margin-top: 20px;
+margin-top: 0px;
 margin-bottom: 0;
 }
 
@@ -952,101 +966,75 @@ width: 100%;
     grid-template-columns: 1fr;
   }
 
-  .growth-title-bar {
+.growth-title-bar {
     width: 100%;
-  }
+}
 
 /* Projects */
 
 .project-item {
-grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
 }
 
 .projects-title-bar {
-width: 100%;
+  width: 100%;
 }
 
 .project-name {
-text-align: center;
+  text-align: center;
 }
 
 .project-name h3 {
-font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 /* Recognition */
 
 .recognition-container {
-grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
 }
 
 .recognition-title-bar {
-width: 100%;
+  width: 100%;
 }
 
 /* Contact */
 
 .contact-card {
-padding: 90px 30px 40px;
+  padding: 30px 30px 40px;
 }
+
 .contact-photo-wrapper {
-left: 50%;
-right: auto;
-transform: translateX(-50%);
+  position: absolute;
+  top: 20px;
+  right: 60px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid #A67C52;
+  background: white;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.contact-list {
+  flex-direction: column;
 }
 
 .contact-content {
-text-align: center;
+  text-align: left;
 }
 
 .contact-item {
-justify-content: center;
+  justify-content: left;
+}
+
+.toolkit-title-bar, .academic-title-bar, .growth-title-bar, 
+.project-title-bar, .recognition-title-bar {
+  width: auto;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 16px;
 }
 
 }
-
-/*
-Navbar
- Background: #A67C52
- Text: #F8F4EF
-
-Overview
- Background: #F8F4EF
- Text: #2F2F2F
-
-Toolkit
- Background: #DCE7F2
- Text: #243447
-
-Projects
- Background: #FAF9F6
- Text: #2F2F2F
-
-Professional Journey
- Background: #C8A27A
- Text: #2F2F2F
-
-Academic Journey
- Background: #E7D7C1
- Text: #3A3A3A
-
-Growth Path
- Background: #DDE8D4
- Text: #2F3E2F
-
-Recognition
- Background: #E8DFC8
- Text: #3B3024
-
-Connect
- Background: #FFFFFF
- Text: #2F2F2F
-
-Global Accent Colours
-
-Primary Accent: #A67C52 (Muted Copper)
-Secondary Accent: #6B8FB3 (Slate Blue)
-Growth Accent: #7A9B76 (Sage Green)
-Text Dark: #2F2F2F
-Text Light: #F8F4EF
-*/

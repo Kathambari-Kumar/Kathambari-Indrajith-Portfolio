@@ -44,7 +44,10 @@ function Contact() {
             <div className="contact-item">
             <span className="contact-icon">𖦥</span>
             <a
-            href="https://github.com/">
+            href="https://github.com/Kathambari-Kumar/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
             GitHub
             </a>
             </div>
@@ -52,7 +55,10 @@ function Contact() {
             <div className="contact-item">
             <span className="contact-icon">🌐</span>
             <a
-            href="https://kathambariwritings.com/">
+            href="https://kathambariwritings.com/"
+            target="_blank"
+            rel="noreferrer"
+            >
             Story Website
             </a>
             </div>

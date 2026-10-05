@@ -64,7 +64,7 @@ function Academic() {
           </div>
         </div>
 
-        <div className="journey-point top future">
+        <div className="journey-point top">
           <div className="year-tag">2026</div>
 
           <div className="fade-line"></div>
