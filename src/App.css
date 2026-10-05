@@ -892,14 +892,12 @@ border-bottom: none;
 }
 
 .code-card {
-    top: 0px;
-    width: 230px;
-    height: 320px;
-    
+    display: none;
 }
 
 .photo-card {
-    top:40px;
+    top:10px;
+    justify-content: center;
     width: 230px;
     height: 360px;
 }
