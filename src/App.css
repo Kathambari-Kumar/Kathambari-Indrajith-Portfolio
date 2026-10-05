@@ -843,7 +843,7 @@ text-decoration: underline;
 
 .logo-icon {
 font-size: 1.0rem;
-font-weight: 500;
+font-weight: 600;
 letter-spacing: 2px;
 color: #DDE8D4;
 }
@@ -851,7 +851,7 @@ color: #DDE8D4;
 .logo-text {
 font-size: 0.7rem;
 font-weight: 500;
-padding-bottom: 5px;
+padding-bottom: 3px;
 color: #DDE8D4;
 }
 .mobile-menu {
@@ -922,7 +922,8 @@ border-bottom: none;
 }
 
 .overview-name {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
 }
 
 .overview-role {
