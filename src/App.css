@@ -893,14 +893,14 @@ border-bottom: none;
 
 .code-card {
     top: 0px;
-    width: 270px;
+    width: 230px;
     height: 320px;
     
 }
 
 .photo-card {
     top:40px;
-    width: 270px;
+    width: 230px;
     height: 360px;
 }
 
@@ -915,12 +915,12 @@ border-bottom: none;
 .overview-role {
   color: #A67C52;
   margin-bottom: 14px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .overview-description {
-  padding-left: 5px;
-  padding-right:5px;
+  padding-left: 10px;
+  padding-right:10px;
 }
 .overview-badges,
 .overview-links {
