@@ -960,7 +960,11 @@ display: none;
 }
 
 .year-tag {
-  padding: 10px 20px; 
+  padding: 7px 20px; 
+}
+
+.journey-content h3 {
+  font-size: 1.3rem;
 }
 
 .journey-point,
