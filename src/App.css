@@ -959,6 +959,10 @@ gap: 30px;
 display: none;
 }
 
+.year-tag {
+  padding: 10px 24px; 
+}
+
 .journey-point,
 .journey-point.bottom {
 flex-direction: column;
