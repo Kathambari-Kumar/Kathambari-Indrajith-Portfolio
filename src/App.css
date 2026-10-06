@@ -930,12 +930,15 @@ border-bottom: none;
   display: none;
 }
 
-.overview-badges,
-.overview-links {
+.overview-badges {
     justify-content: center;
     gap: 7px;
 }
 
+.overview-links {
+    justify-content: center;
+    gap: 10px;
+}
   /* Toolkit */
 .toolkit-grid {
     grid-template-columns: 1fr;
