@@ -963,10 +963,6 @@ display: none;
   padding: 10px 20px; 
 }
 
-.journey-content h3 {
-  font-size: 0.8rem;
-}
-
 .journey-point,
 .journey-point.bottom {
 flex-direction: column;
