@@ -937,7 +937,7 @@ border-bottom: none;
 
 .overview-links {
     justify-content: center;
-    gap: 10px;
+    gap: 12px;
 }
   /* Toolkit */
 .toolkit-grid {
