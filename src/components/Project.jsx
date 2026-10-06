@@ -1,7 +1,7 @@
 import storyImage from "../assets/Story_Site_Pic.png"
 import PolyAPI_Image from "../assets/Poly_Image_Pic.jpg"
 import ApplyInsigtsImage from "../assets/Apply_Insights_Pic.jpg"
-import PortfolioImage from "../assets/Portfolio_Pic.jpg"
+import PortfolioImage from "../assets/Portfolio_Image.png"
 function Project() {
   return (
     <section id="project" className="project-section">
