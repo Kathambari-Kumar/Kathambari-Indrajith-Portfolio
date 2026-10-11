@@ -2,14 +2,14 @@
 
 Personal portfolio website showcasing my skills, projects, professional journey, and achievements as a Frontend & Full-Stack Developer.
 
-**Tech Stack**
+**Tech Stack:**
 React,
 JavaScript,
 CSS3,
 Vite,
-Vercel
+Vercel.
 
-**Features**
+**Features:**
 Responsive design,
 Professional overview,
 Technical toolkit,
@@ -18,13 +18,13 @@ Professional experience,
 Project showcase,
 Recognition & achievements,
 Downloadable CV,
-Contact links
+Contact links.
 
-**Projects Highlighted**
+**Projects Highlighted:**
 Personal Storytelling Website,
 Portfolio Website,
 ApplyInsights,
-PolyAPI
+PolyAPI.
 
 **Live Demo**
 Portfolio: https://kathambari-indrajith-portfolio.vercel.app/
