@@ -1,32 +1,32 @@
-**Kathambari Indrajith Portfolio**
+# Kathambari Indrajith – Developer Portfolio
 
-Personal portfolio website showcasing my skills, projects, professional journey, and achievements as a Frontend & Full-Stack Developer.
+Personal portfolio website built with React and Vite to showcase my software engineering projects, technical skills, academic background, and professional experience as a Fullstack & AI Developer.
 
-**Tech Stack:**
-React,
-JavaScript,
-CSS3,
-Vite,
-Vercel.
+**Live Demo:** https://kathambari-indrajith-portfolio.vercel.app/
 
-**Features:**
-Responsive design,
-Professional overview,
-Technical toolkit,
-Academic journey,
-Professional experience,
-Project showcase,
-Recognition & achievements,
-Downloadable CV,
-Contact links.
+## Tech Stack
+* **Frontend:** React, JavaScript (ES6+), CSS3
+* **Build Tool & Deployment:** Vite, Vercel
 
-**Projects Highlighted:**
-Personal Storytelling Website,
-Portfolio Website,
-ApplyInsights,
-PolyAPI.
+## Key Features
+* **Responsive Design:** Clean, mobile-friendly layout optimized for desktop and mobile devices.
+* **Project Showcase:** Detailed overview of fullstack, data, and AI applications with direct repository links.
+* **Experience & Education:** Structured timeline covering Swedish LIA internship experience, UHR-assessed Master's degree (MCA), and certifications.
+* **Quick Access:** Downloadable CV and direct contact links (GitHub, LinkedIn).
 
-**Live Demo**
-Portfolio: https://kathambari-indrajith-portfolio.vercel.app/
+## Projects Highlighted
+* **PolyAPI AI Multi-App:** Python and Flask microservice integrating Hugging Face BLIP vision-language models and web scraping.
+* **ApplyInsights:** Automated Python and MySQL ETL pipeline for tracking and visualizing job applications.
+* **Literary Website:** Dedicated website showcasing published stories and poetry.
 
-
+## Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Kathambari-Kumar/Kathambari-Indrajith-Portfolio.git
+   cd Kathambari-Indrajith-Portfolio
+   ```
+2. Install dependencies and start the dev server:
+   ```bash
+   npm install
+   npm run dev
+   ```
