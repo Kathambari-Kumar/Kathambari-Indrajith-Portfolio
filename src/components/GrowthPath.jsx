@@ -9,81 +9,92 @@ function GrowthPath() {
       <div className="growth-grid">
 
         <div className="growth-card">
-          <div className="corner-fold"></div>
+            <div className="corner-fold"></div>
 
-          <h3>Teacher & Guest Lecturer</h3>
+            <h3>Fullstack Developer Intern (LIA)</h3>
 
-          <span className="growth-company">
-            India [2005 - 2008]
-          </span>
+            <span className="growth-company">
+              Oves Optik, Finspång [Apr 2025 - Jul 2025]
+            </span>
 
-          <ul>
-            <li>Taught programming, databases, and networking to university students</li>
-            <li>Designed course materials and guided academic projects.</li>
-          </ul>
-          
-          <div className="tech-stack">
-            Programming • Databases • Teaching
-          </div>
-        </div>        
+            <ul>
+              <li>Developed fullstack features using React, TypeScript, Node.js, and PostgreSQL for daily clinic workflows.</li>
+              <li>Built appointment booking, prescription management, and real-time analytics dashboards, delivering the final demo to the owner.</li>
+            </ul>
 
-        <div className="growth-card">
-          <div className="corner-fold"></div>
-
-          <h3>Author & Content Creator</h3>
-
-          <span className="growth-company">
-            India [Jun 2018 - Mar 2023]
-          </span>
-
-          <ul>
-            <li>Published novels and poetry collections in Tamil.</li>
-            <li>Managed content creation, publishing, and reader engagement.</li>
-          </ul>
-
-          <div className="tech-stack">
-            Writing • Publishing • Communication
-          </div>
+            <div className="tech-stack">
+              React • TypeScript • Node.js • PostgreSQL • REST API • Git
+            </div>
         </div>
 
         <div className="growth-card">
           <div className="corner-fold"></div>
 
-          <h3>Vocational IT Programming</h3>
+          <h3>Published Author & Web Content Creator</h3>
 
           <span className="growth-company">
-            Lexicon [Aug 2024 - Feb 2025]
+            Sweden & India [Jun 2018 - Present]
           </span>
 
           <ul>
-            <li>Built full-stack applications using modern web technologies.</li>
-            <li>Practised Agile/Scrum workflows using Git and Azure DevOps.</li>
+            <li>Published novels and poetry collections, receiving the Tamil Nadu State Government 
+            Award (NRI Foreign Literature) for "Niral Mozhi".</li>
+            <li>Designed, built, and maintain a dedicated literary website to showcase 
+              published works and engage readers.</li>
           </ul>
 
           <div className="tech-stack">
-            C# • ASP.NET Core • SQL • JavaScript
+            Web Content • Editorial Precision • Publishing • Communication
           </div>
         </div>
+
+
+        <div className="growth-card">
+          <div className="corner-fold"></div>
+
+          <h3>IT & Fullstack Development (.NET & C#)</h3>
+
+          <span className="growth-company">
+            Lexicon, Linköping [Aug 2024 - Feb 2025]
+          </span>
+
+          <ul>
+            <li>Built fullstack web applications including Digital Dragons (a dynamic news platform 
+              with RBAC and SQL Server) in an Agile/Scrum team.</li>
+            <li>Integrated external REST APIs and Microsoft Azure services (Functions, Blob Storage, 
+              Cognitive Services) using Git and Azure DevOps.</li>
+          </ul>
+
+          <div className="tech-stack">
+            C# • ASP.NET Core • SQL Server • Azure • Git
+          </div>
+        </div>
+
 
         
-        <div className="growth-card">
-          <div className="corner-fold"></div>
+        
 
-          <h3>Backend & Frontend Intern</h3>
 
-          <span className="growth-company">
-            Oves Optik [Apr 2025 - Jul 2025]
-          </span>
+      <div className="growth-card">
+        <div className="corner-fold"></div>
 
-          <ul>
-            <li>Worked with React, Node.js, and PostgreSQL in a production environment.</li>
-            <li>Implemented workflows and dashboards while contributing to testing and documentation.</li>
-          </ul>
+        <h3>Computer Science Lecturer</h3>
 
-          <div className="tech-stack">
-            React • Node.js • PostgreSQL • Git
-          </div>
+        <span className="growth-company">
+          Tamil Nadu, India [2005 - 2008]
+        </span>
+
+        <ul>
+          <li>Taught undergraduate and postgraduate courses in programming, relational databases, 
+            and networking to 120+ students per semester.</li>
+          <li>Designed lab exercises, structured assessments, and led teaching assistants to coordinate 
+            coursework and student projects.</li>
+        </ul>
+
+        <div className="tech-stack">
+          Programming • Relational Databases • Networking • Mentoring
         </div>
+      </div>
 
 
       </div>

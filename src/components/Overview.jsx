@@ -35,23 +35,21 @@ Hello, I'm
 Kathambari Indrajith
 </h1>
 <h2 className="overview-role">
-Frontend & Full-Stack Developer
+Fullstack & AI Developer
 </h2>
 <p className="overview-description">
-Frontend and Full-Stack Developer with hands-on experience
-building web applications using React, JavaScript, HTML,
-CSS, ASP.NET Core, and SQL.
+Fullstack & AI Developer with a Master of Computer Applications (UHR SeQF Level 7) 
+and hands-on experience building scalable web applications, RESTful APIs, 
+and AI-powered solutions using C#, ASP.NET Core, Python, React, TypeScript, Node.js, and SQL.
 </p>
 <p className="overview-description">
-My background in Computer Science education and publishing
-has strengthened my communication, analytical thinking,
-and problem-solving skills. I enjoy learning new
-technologies, building practical solutions, and turning
-ideas into working applications that create value for users.
+My background in Computer Science education and award-winning publishing has strengthened 
+my communication, analytical thinking, and problem-solving skills. I enjoy learning new technologies, 
+leveraging AI tools to streamline development, and turning ideas into reliable, user-focused software.
 </p>
 <div className="overview-badges">
-<span className="badge">🏠︎ Sweden</span>
-<span className="badge">🖳 React Developer</span>
+<span className="badge">🏠︎ Sweden (Work Authorized)</span>
+<span className="badge">🖳 .NET, TypeScript & AI</span>
 <span className="badge">🕮 Author & Educator</span>
 </div>
 

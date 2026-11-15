@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-logo">
         <p className="logo-icon">KATHAMBARI INDRAJITH</p>
-        <p className="logo-text">Frontend & Full-Stack Developer</p>
+        <p className="logo-text">Fullstack & AI Developer</p>
       </div>
       <button
         className="hamburger"

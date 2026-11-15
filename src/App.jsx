@@ -6,6 +6,7 @@ import GrowthPath from "./components/GrowthPath";
 import Projects from "./components/Project";
 import Recognition from "./components/Recognition";
 import Contact from "./components/Contact";
+import Footer from "./components/footer";
 import "./App.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Projects />
       <Recognition />
       <Contact />
+      <Footer />
     </>
   );
 }
