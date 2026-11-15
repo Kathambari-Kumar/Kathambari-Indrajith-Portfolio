@@ -232,25 +232,6 @@ body {
   border-bottom: 5px solid #f7efe6;
 }
 
-.toolkit-title-bar {
-  max-width: 1200px;
-  margin: 0 auto 36px auto;
-  padding: 12px 24px;
-  background: linear-gradient(
-    to right,
-    rgba(140, 98, 57, 1),
-    rgba(166, 124, 82, 0.9),
-    rgba(166, 124, 82, 0)
-  );
-  border-radius: 8px;
-}
-
-.toolkit-title-bar h2 {
-  color: #F8F4EF;
-  margin: 0;
-  letter-spacing: 2px;
-}
-
 .toolkit-grid {
   max-width: 1200px;
   margin: 0 auto;
@@ -324,25 +305,6 @@ body {
   color: #243447;
   padding: 40px 20px;
   border-bottom: 5px solid #f7efe6;
-}
-
-.academic-title-bar {
-  max-width: 1200px;
-  margin: 0 auto 40px auto;
-  padding: 12px 24px;
-  background: linear-gradient(
-    to right,
-    rgba(140, 98, 57, 1),
-    rgba(166, 124, 82, 0.9),
-    rgba(166, 124, 82, 0)
-  );
-  border-radius: 8px;
-}
-
-.academic-title-bar h2 {
-  color: #F8F4EF;
-  margin: 0;
-  letter-spacing: 2px;
 }
 
 .journey-line {
@@ -455,25 +417,6 @@ body {
   border-bottom: 5px solid #f7efe6;
 }
 
-.growth-title-bar {
-  max-width: 1200px;
-  margin: 0 auto 32px auto;
-  padding: 12px 24px;
-  background: linear-gradient(
-    to right,
-    rgba(140, 98, 57, 1),
-    rgba(166, 124, 82, 0.9),
-    rgba(166, 124, 82, 0)
-  );
-  border-radius: 8px;
-}
-
-.growth-title-bar h2 {
-  margin: 0;
-  color: #F8F4EF;
-  letter-spacing: 2px;
-}
-
 .growth-grid {
   max-width: 1200px;
   margin: 0 auto;
@@ -554,25 +497,6 @@ body {
   color: #243447;
   padding: 40px 20px;
   border-bottom: 5px solid #f7efe6;
-}
-
-.project-title-bar {
-  max-width: 1200px;
-  margin: 0 auto 36px auto;
-  padding: 12px 24px;
-  background: linear-gradient(
-    to right,
-    rgba(140, 98, 57, 1),
-    rgba(166, 124, 82, 0.9),
-    rgba(166, 124, 82, 0)
-  );
-  border-radius: 8px;
-}
-
-.project-title-bar h2 {
-  color: #F8F4EF;
-  margin: 0;
-  letter-spacing: 2px;
 }
 
 .project-item {
@@ -673,25 +597,6 @@ body {
   color: #243447;
   padding: 40px 20px;
   border-bottom: 5px solid #f7efe6;
-}
-
-.recognition-title-bar {
-  max-width: 1200px;
-  margin: 0 auto 36px auto;
-  padding: 12px 24px;
-  background: linear-gradient(
-    to right,
-    rgba(140, 98, 57, 1),
-    rgba(166, 124, 82, 0.9),
-    rgba(166, 124, 82, 0)
-  );
-  border-radius: 8px;
-}
-
-.recognition-title-bar h2 {
-  color: #F8F4EF;
-  margin: 0;
-  letter-spacing: 2px;
 }
 
 .recognition-container {
@@ -859,6 +764,61 @@ body {
   margin: 0;
 }
 
+/* --- All Section Headers --- */
+
+.toolkit-title-bar,
+.academic-title-bar,
+.growth-title-bar,
+.project-title-bar,
+.recognition-title-bar {
+  max-width: 1200px;
+  margin: 0 auto 36px auto;
+  padding: 0;
+  background: none;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+
+.toolkit-title-bar h2,
+.academic-title-bar h2,
+.growth-title-bar h2,
+.project-title-bar h2,
+.recognition-title-bar h2 {
+  color: #8C6239;
+  padding: 3px 7px;
+  font-size: 1.35rem;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 1.5px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.toolkit-title-bar::after,
+.academic-title-bar::after,
+.growth-title-bar::after,
+.project-title-bar::after,
+.recognition-title-bar::after  {
+  content: "";
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(to right, rgba(140, 98, 57, 0.55), rgba(140, 98, 57, 0.08));
+  border-radius: 2px;
+}
+
+.toolkit-title-bar::before,
+.academic-title-bar::before,
+.growth-title-bar::before,
+.project-title-bar::before,
+.recognition-title-bar::before {
+  content: "";
+  width: 45px;
+  flex-shrink: 0;
+  height: 2px;
+  background: linear-gradient(to left, rgba(140, 98, 57, 0.55), rgba(140, 98, 57, 0.08));
+  border-radius: 2px;
+}
 
 /* Mobile Responsive */
 
@@ -990,11 +950,6 @@ body {
   padding: 32px 16px;
 }
 
-.toolkit-title-bar {
-  margin-bottom: 24px;
-  padding: 10px 16px;
-}
-
 .toolkit-grid {
   grid-template-columns: 1fr;
   gap: 16px;
@@ -1005,11 +960,6 @@ body {
 
 .academic-section {
   padding: 32px 16px;
-}
-
-.academic-title-bar {
-  margin-bottom: 24px;
-  padding: 10px 16px;
 }
 
 .journey-line {
@@ -1059,11 +1009,6 @@ body {
   padding: 32px 16px;
 }
 
-.growth-title-bar {
-  margin-bottom: 24px;
-  padding: 10px 16px;
-}
-
 .growth-grid {
   grid-template-columns: 1fr;
   gap: 20px;
@@ -1078,11 +1023,6 @@ body {
 
 .project-section {
   padding: 32px 16px;
-}
-
-.project-title-bar {
-  margin-bottom: 24px;
-  padding: 10px 16px;
 }
 
 .project-item {
@@ -1110,11 +1050,6 @@ body {
   padding: 32px 16px;
 }
 
-.recognition-title-bar {
-  margin-bottom: 24px;
-  padding: 10px 16px;
-}
-
 .recognition-container {
   grid-template-columns: 1fr;
   gap: 20px;
@@ -1127,7 +1062,6 @@ body {
 
 /* Contact */
 
-/* Mobile Contact & Shared Title Bars */
 .contact-section {
   padding: 32px 16px;
 }
@@ -1164,15 +1098,35 @@ body {
   justify-content: flex-start;
 }
 
+/* Mobile Section Title Bars */
+
 .toolkit-title-bar,
 .academic-title-bar,
 .growth-title-bar,
 .project-title-bar,
 .recognition-title-bar {
-  width: auto;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 10px 16px;
+  margin-bottom: 24px;
+  gap: 7px;
 }
+
+.toolkit-title-bar::before,
+.academic-title-bar::before,
+.growth-title-bar::before,
+.project-title-bar::before,
+.recognition-title-bar::before {
+  width: auto;
+  flex: 1;
+}
+
+.toolkit-title-bar h2,
+.academic-title-bar h2,
+.growth-title-bar h2,
+.project-title-bar h2,
+.recognition-title-bar h2 {
+  font-size: 1.15rem;
+  padding: 3px 7px;
+}
+
+
 
 }
