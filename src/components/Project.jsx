@@ -24,12 +24,12 @@ function Project() {
           </p>
 
           <p>
-            Dedicated digital publishing platform showcasing original Tamil stories, novels, 
+            • Dedicated digital publishing platform showcasing original Tamil stories, novels, 
             and poetry collections with a clean, responsive reading experience.
           </p>
 
           <p>
-            Designed, deployed, and continuously maintained with custom UI styling, structured content 
+            • Designed, deployed, and continuously maintained with custom UI styling, structured content 
             organization, and reader-focused navigation.
           </p>
 
@@ -57,12 +57,12 @@ function Project() {
           </p>
 
           <p>
-            Responsive developer portfolio built with React and Vite to showcase full-stack, data, 
+            • Responsive developer portfolio built with React and Vite to showcase full-stack, data, 
             and AI engineering projects alongside technical skills and experience.
           </p>
 
           <p>
-            Architected with modular, reusable UI components, clean typography, and mobile-first 
+            • Architected with modular, reusable UI components, clean typography, and mobile-first 
             styling for fast performance across devices.
           </p>
 
@@ -90,12 +90,12 @@ function Project() {
           </p>
 
           <p>
-            Automated Python and Flask ETL application that extracts job application emails, 
+            • Automated Python and Flask ETL application that extracts job application emails, 
             normalizes records into MySQL, and visualizes monthly and city-wise trends.
           </p>
 
           <p>
-            Built with automated data validation checks and Matplotlib dashboards to eliminate 
+            • Built with automated data validation checks and Matplotlib dashboards to eliminate 
             manual tracking and ensure clean relational data.
           </p>
 
@@ -122,12 +122,12 @@ function Project() {
           </p>
 
           <p>
-            Python and Flask microservice integrating Hugging Face vision-language models 
+            • Python and Flask microservice integrating Hugging Face vision-language models 
             (BLIP, PyTorch) for automated image captioning, emotion detection, and URL web scraping.
           </p>
 
           <p>
-            Built with RESTful endpoints supporting direct file uploads and automated image 
+            • Built with RESTful endpoints supporting direct file uploads and automated image 
             preprocessing using Pillow and BeautifulSoup.
           </p>
 
