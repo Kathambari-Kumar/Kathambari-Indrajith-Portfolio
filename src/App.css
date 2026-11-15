@@ -984,6 +984,19 @@ body {
   flex-direction: column;
 }
 
+.journey-type {
+  font-size: 0.9rem;
+}
+
+.journey-content h3 {
+  font-size: 0.9rem;
+}
+
+.journey-content p {
+  font-size: 0.9rem;
+}
+
+
 .fade-line {
   height: 28px;
 }
