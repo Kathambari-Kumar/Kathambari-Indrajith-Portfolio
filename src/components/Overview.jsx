@@ -1,5 +1,5 @@
 import profilePhoto from "../assets/Profile2.png";
-import Download_CV from "../assets/Kathambari Indrajith - CV.pdf";
+import Download_CV from "../assets/Kathambari_Indrajith_CV.pdf";
 function Overview() {
 return (
 
